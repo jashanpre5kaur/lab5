@@ -1,0 +1,31 @@
+
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "Bootstrap and sass setup",
+  "keywords": [
+    "git"
+  ],
+  "homepage": "https://github.com/jashanpre5kaur/lab5#readme",
+  "bugs": {
+    "url": "https://github.com/jashanpre5kaur/lab5/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jashanpre5kaur/lab5.git"
+  },
+  "license": "MIT",
+  "author": "Jashanpreet",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "sass-build": " sass --no-source-map  scss:css"
+    
+
+
+  "sass-watch": "sass --watch helloworld/style.scss:helloworld/style.css"
+
+
+  }
+}
+

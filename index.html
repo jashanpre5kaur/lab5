@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animals</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Animals</a>
+            <input class="form-control me-2" type="search" placeholder="Search Animals" aria-label="Search">
+        </div>
+    </nav>
+    
+    <div class="container mt-4">
+        <ul class="nav nav-tabs" id="animalTabs">
+            <li class="nav-item">
+                <a class="nav-link active" data-bs-toggle="tab" href="#behavior">Behavior</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#adaptations">Adaptations</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#conservation">Conservation</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#diversity">Diversity</a>
+            </li>
+        </ul>
+        <div class="tab-content mt-3">
+            <div id="behavior" class="tab-pane fade show active">
+                <img src="penguins.jpg" alt="Penguins" class="rounded-circle">
+            </div>
+            <div id="adaptations" class="tab-pane fade">
+                <img src="meerkats.jpg" alt="Meerkats" class="rounded-circle">
+            </div>
+            <div id="conservation" class="tab-pane fade">
+                <img src="cat.jpg" alt="Cat" class="rounded-circle">
+            </div>
+            <div id="diversity" class="tab-pane fade">
+                <p>More animal diversity coming soon!</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <img src="images/penguins.jpg" alt="Penguins" class="rounded-circle">
+<img src="images/puppies.jpg.tiff" alt="Puppies" class="rounded-circle">
+<img src="images/cat.jpg" alt="Cat" class="rounded-circle">
+
+</body>
+</html>
